@@ -92,7 +92,7 @@ async function submitOrder(order, foodItems, setInvoice, setIsLoading, setError)
   };
 
   try {
-    const res = await fetch("https://huggingface.co/api/spaces/SiddharthJain252/Swadist/predict", {
+    const res = await fetch("https://siddharthjain252-swadist.hf.space/predict", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
