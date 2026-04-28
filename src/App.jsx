@@ -6,6 +6,7 @@ import CityStep     from "./components/CityStep";
 import FoodStep     from "./components/FoodStep";
 import DeliveryStep from "./components/DeliveryStep";
 import InvoiceStep  from "./components/InvoiceStep";
+import ChatBot from "./components/ChatBot";
 
 export default function App() {
   const {
@@ -140,6 +141,7 @@ export default function App() {
           © 2025 Swadist · Made with ❤️ in India
         </p>
       </footer>
+      <ChatBot />
     </div>
   );
 }
