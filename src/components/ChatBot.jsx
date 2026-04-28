@@ -68,7 +68,7 @@ export default function ChatBot() {
   setLoading(true);
 
   try {
-    const apikey = import.meta.env.API_KEY;
+    const apikey = import.meta.env.VITE_GROQ_API_KEY;
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
